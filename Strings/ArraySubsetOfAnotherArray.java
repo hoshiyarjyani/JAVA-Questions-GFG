@@ -65,8 +65,8 @@ class Compute {
             if (hm.containsKey(a2[i])) {
                 hm.put(a2[i], hm.get(a2[i]) - 1);
                 if (hm.get(a2[i]) < 0) {
-                    flag = false;
-                    break;
+                    flag =false;
+                     break;
                 }
             }
 
